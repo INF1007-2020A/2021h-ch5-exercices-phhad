@@ -8,17 +8,21 @@ from typing import List
 def convert_to_absolute(number: float) -> float:
     if(number < 0):
         number_abs = -number
-    return number_abs
+        return number_abs
+    else:
+        return number
 
 
 def use_prefixes() -> List[str]:
     prefixes, suffixe = 'JKLMNOPQ', 'ack'
-
-    return [""]
+    liste_nom = []
+    for pre in prefixes:
+        liste_nom.append(pre + suffixe)
+    return liste_nom
 
 
 def prime_integer_summation() -> int:
-    return 0
+    if
 
 
 def factorial(number: int) -> int:
