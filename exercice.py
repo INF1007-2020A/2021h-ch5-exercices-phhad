@@ -22,15 +22,20 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    if
+    somme = 0
+    c
+
 
 
 def factorial(number: int) -> int:
-    return 0
+    facto = 1
+    for i in (1, number, 1):
+        facto=i*facto
+    return facto
 
 
 def use_continue() -> None:
-    pass
+
 
 
 def verify_ages(groups: List[List[int]]) -> List[bool]:
