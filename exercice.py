@@ -22,8 +22,19 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    somme = 0
-    c
+    nombre = 2
+    nombre_premier = []
+    while len(nombre_premier<100):
+        premier = True
+        for i in range(2, nombre):
+            if nombre%i == 0:
+                premier = False
+                break
+        if premier == 1:
+            nombre_premier.append(nombre)
+        nombre += 1
+
+    return (somme)
 
 
 
