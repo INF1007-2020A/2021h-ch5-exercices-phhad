@@ -53,7 +53,6 @@ def use_continue() -> None:
             continue
         print(i)
 
-
 def verify_ages(groups: List[List[int]]) -> List[bool]:
     acceptance = []
     for sub_group in groups:
@@ -64,12 +63,12 @@ def verify_ages(groups: List[List[int]]) -> List[bool]:
             acceptance.append(True)
             continue
 
-          if 50 in sub_group:
-              is_50 = True
-          else:
-              is_50 = False
+        if 50 in sub_group:
+            is_50 = True
+        else:
+            is_50 = False
 
-          is_accepted = True
+        is_accepted = True
         for age in sub_group:
             if(age < 18) or (is_50 and age > 70):
                 is_accepted = False
